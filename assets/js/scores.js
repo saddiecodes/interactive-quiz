@@ -24,5 +24,16 @@ const quizQuestions = [
     correctAnswer: "all of the above", 
 },
 
+{
+    question: "String values must be enclosed within when being assigned to variables",
+    options: ["commas", "curly brackets", "quotes", "parentheses"],
+    correctAnswer: "curly brackets",
+},
+
+{
+    question: "A very useful tool during development and debugging for printing content to the debugger is:",
+    options: ["JavaScript", "terminal/bash", "for loops", "console.log"],
+    correctAnswer: "console.log", 
+}
 
 ];
