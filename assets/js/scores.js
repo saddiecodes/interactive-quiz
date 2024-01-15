@@ -37,3 +37,8 @@ const quizQuestions = [
 }
 
 ];
+
+//Other global variables
+let currentQuestionIndex = 0;
+let timer;
+let timeLeft = 60; //set initial time
