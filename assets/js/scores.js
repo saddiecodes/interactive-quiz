@@ -61,3 +61,8 @@ startButton.addEventListener("click",function(){
     console.log("start button")
     startQuiz()
 } )
+
+
+
+
+
