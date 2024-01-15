@@ -42,3 +42,15 @@ const quizQuestions = [
 let currentQuestionIndex = 0;
 let timer;
 let timeLeft = 60; //set initial time
+
+//Function to start the quiz
+function startQuiz() {
+// Start the timer
+timer = setInterval(function () {
+    timeLeft--; 
+
+    // Check if the game is over
+    if (timeLeft <=0 || currentQuestionIndex === quizQuestions.length) {
+        endgame();
+     }
+    }, 1000); 
