@@ -1,2 +1,48 @@
-# interactive-quiz
-An interactive multiple choice for users which will tell them when they are right or wrong.
+# Interactive Quiz
+## Overview
+Welcome to the Coding Quiz! This interactive web application is designed to test your coding knowledge, specifically focusing on content from the BootCamp. Engage in a timed multiple-choice quiz where you answer questions related to coding. After completing the quiz, you can track and save your score on the scoreboard.
+
+## Features
+Start Quiz:
+
+Click the "Start" button to initiate the quiz.
+A timer begins, and the first coding-related question is presented.
+Answering Questions:
+
+Navigate through a series of multiple-choice questions.
+Incorrect answers result in time deductions from the timer.
+Game Over:
+
+The game concludes when all questions are answered or the timer reaches zero.
+Scoreboard:
+
+After completing the quiz, save your initials and view your score on the scoreboard.
+Acceptance Criteria
+Start Quiz:
+
+Clicking "Start" triggers the timer and presents the first coding question.
+Answering Questions:
+
+Successfully answering a question moves you to the next question.
+Incorrect answers result in time deductions.
+Game Over:
+
+The game concludes when all questions are answered or the timer reaches zero.
+Scoreboard:
+
+After the quiz, save your initials and view your coding knowledge score on the scoreboard.
+## Technologies Used
+HTML
+CSS
+JavaScript
+## Usage
+You can open the index.html file in your preferred web browser.
+Click the "Start" button to begin the coding quiz.
+Answer each question within the allotted time.
+After completing the quiz, save your initials and track your coding knowledge score on the scoreboard.
+Development
+Feel free to contribute to enhancing this quiz by forking the repository and submitting pull requests.
+
+## Contributors
+Hannah Barrie
+
