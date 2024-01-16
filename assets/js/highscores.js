@@ -14,3 +14,8 @@ for (var i = 0; i <UserArray.length; i++) {
 
     var UserScoreAndName = localStorage.setItem("scoreAndName", scoreAndName);
 }
+
+backButton.addEventListener("click", function() {
+    console.log("clicked on back button");
+    window.location.href = "index.html";
+});
