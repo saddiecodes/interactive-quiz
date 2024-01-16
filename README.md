@@ -6,31 +6,44 @@ Welcome to the Coding Quiz! This interactive web application is designed to test
 Start Quiz:
 
 Click the "Start" button to initiate the quiz.
+
 A timer begins, and the first coding-related question is presented.
+
 Answering Questions:
 
 Navigate through a series of multiple-choice questions.
+
 Incorrect answers result in time deductions from the timer.
+
 Game Over:
 
 The game concludes when all questions are answered or the timer reaches zero.
+
 Scoreboard:
 
+
 After completing the quiz, save your initials and view your score on the scoreboard.
-Acceptance Criteria
+
+## Acceptance Criteria
+
 Start Quiz:
 
 Clicking "Start" triggers the timer and presents the first coding question.
+
 Answering Questions:
 
 Successfully answering a question moves you to the next question.
+
 Incorrect answers result in time deductions.
+
 Game Over:
 
 The game concludes when all questions are answered or the timer reaches zero.
+
 Scoreboard:
 
 After the quiz, save your initials and view your coding knowledge score on the scoreboard.
+
 ## Technologies Used
 HTML
 CSS
