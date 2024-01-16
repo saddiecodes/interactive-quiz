@@ -7,7 +7,7 @@ function printHighscores() {
   
     for (var i = 0; i < highscores.length; i += 1) {
       var liTag = document.createElement('li');
-      liTag.textContent = highscores[i].initials + ' - ' + highscores[i].score;
+      liTag.textContent = highscores[i].name + ' - ' + highscores[i].score;
   
       var olEl = document.getElementById('highscores');
       olEl.appendChild(liTag);
