@@ -21,28 +21,7 @@ The game concludes when all questions are answered or the timer reaches zero.
 
 Scoreboard:
 
-
 After completing the quiz, save your initials and view your score on the scoreboard.
-
-## Acceptance Criteria
-
-Start Quiz:
-
-Clicking "Start" triggers the timer and presents the first coding question.
-
-Answering Questions:
-
-Successfully answering a question moves you to the next question.
-
-Incorrect answers result in time deductions.
-
-Game Over:
-
-The game concludes when all questions are answered or the timer reaches zero.
-
-Scoreboard:
-
-After the quiz, save your initials and view your coding knowledge score on the scoreboard.
 
 ## Technologies Used
 HTML
