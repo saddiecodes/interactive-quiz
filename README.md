@@ -29,11 +29,13 @@ CSS
 JavaScript
 ## Usage
 You can open the index.html file in your preferred web browser.
+
 Click the "Start" button to begin the coding quiz.
+
 Answer each question within the allotted time.
+
 After completing the quiz, save your initials and track your coding knowledge score on the scoreboard.
-Development
-Feel free to contribute to enhancing this quiz by forking the repository and submitting pull requests.
+
 
 ## Contributors
 Hannah Barrie
