@@ -35,3 +35,5 @@ var questions = [
     }, 
 
 ];
+
+//issue with the questions being shown

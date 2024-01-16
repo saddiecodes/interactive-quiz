@@ -1,21 +1,47 @@
-highScoreArea = document.querySelector("#highScores");
-//command for user
-var UserArray = ["HI", "byt"];
-console.log(localStorage.getItem("UserInitials"));
-var UserArray = JSON.parse(localStorage.getItem("UserInitials"));
-var UserArray = JSON.parse(localStorage.getItem("UserInitials"));
 
-for (var i = 0; i <UserArray.length; i++) {
-    var scoreAndName = document.createElement("h4");
-    scoreAndName.classList.add("quizOver");
-    scoreAndName.classList.add("purpleText");
-    scoreAndName.textContent = UserArray[i].name + " " + UserArray[i].score;
-    highScoreArea.appendChild(scoreAndName); 
+var currentQuestionIndex = 0;
+var time = questions.length * 15;
+var timerId;
 
-    var UserScoreAndName = localStorage.setItem("scoreAndName", scoreAndName);
+var questionsEl = document.getElementById('questions');
+var timerEl = document.getElementById('time');
+var choicesEl = document.getElementById('choices');
+var submitBtn = document.getElementById('submit');
+var startBtn = document.getElementById('start');
+var nameEl = document.getElementById('name');
+var feedbackEl = document.getElementById('feedback');
+
+
+
+function startQuiz() {
+
+  var startScreenEl = document.getElementById('start-screen');
+  startScreenEl.setAttribute('class', 'hide');
+
+  questionsEl.removeAttribute('class');
+
+  timerId = setInterval(clockTick, 1000);
+
+  timerEl.textContent = time;
+
+  getQuestion();
 }
 
-backButton.addEventListener("click", function() {
-    console.log("clicked on back button");
-    window.location.href = "index.html";
-});
+function getQuestion() {
+  var currentQuestion = questions[currentQuestionIndex];
+
+  var titleEl = document.getElementById('question-title');
+  titleEl.textContent = currentQuestion.title;
+
+  choicesEl.innerHTML = '';
+
+  for (var i = 0; i < currentQuestion.choices.length; i++) {
+    var choice = currentQuestion.choices[i];
+    var choiceNode = document.createElement('button');
+    choiceNode.setAttribute('class', 'choice');
+    choiceNode.setAttribute('value', choice);
+
+    choiceNode.textContent = i + 1 + '. ' + choice;
+
+    choicesEl.appendChild(choiceNode);
+  }
