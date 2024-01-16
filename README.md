@@ -39,6 +39,8 @@ After completing the quiz, save your initials and track your coding knowledge sc
 Good Luck!
 
 
-## Contributors
-Hannah Barrie
+A preview of the quiz is below:
+
+![Screenshot 2024-01-16 at 23 29 12](https://github.com/saddiecodes/interactive-quiz/assets/151469708/a681cb99-076b-445d-9252-5c17bb4af807)
+
 
