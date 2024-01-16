@@ -36,6 +36,8 @@ Answer each question within the allotted time.
 
 After completing the quiz, save your initials and track your coding knowledge score on the scoreboard.
 
+Good Luck!
+
 
 ## Contributors
 Hannah Barrie
